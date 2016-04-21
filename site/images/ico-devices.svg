@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="55px" height="45px" viewBox="0 0 55 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>ico-devices</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="11" y="16" width="55" height="34"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="55" height="34" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="0" y="0" width="12" height="22"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="12" height="22" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="0" y="0" width="28" height="22"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="28" height="22" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-197.000000, -276.000000)">
+            <g id="ico-devices" transform="translate(186.000000, 260.000000)">
+                <rect id="Rectangle-480-Copy-3" x="0" y="0" width="78" height="78"></rect>
+                <use id="Rectangle-500" stroke="#E53A40" mask="url(#mask-2)" stroke-width="8" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <g id="Group-2" transform="translate(16.000000, 39.000000)">
+                    <use id="Rectangle-501" stroke="#E53A40" mask="url(#mask-4)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-3"></use>
+                    <path d="M1.5,5.5 L10.5,5.5" id="Line" stroke="#E53A40" stroke-linecap="square"></path>
+                    <path d="M1.5,16.5 L10.5,16.5" id="Line-Copy-12" stroke="#E53A40" stroke-linecap="square"></path>
+                    <path d="M5.5,18.5 L6.5,18.5" id="Line-Copy-13" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M3.5,3.5 L8.5,3.5" id="Line-Copy-14" stroke="#979797" stroke-linecap="square"></path>
+                </g>
+                <g id="Group" transform="translate(33.000000, 39.000000)">
+                    <use id="Rectangle-501-Copy" stroke="#E53A40" mask="url(#mask-6)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-5"></use>
+                    <path d="M3.5,10.5 L3.5,11.5" id="Line" stroke="#979797" stroke-linecap="square"></path>
+                    <path d="M24,10.5 L24,11.5" id="Line-Copy-16" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M5.5,2.5 L5.5,19.5" id="Line" stroke="#E53A40" stroke-linecap="square"></path>
+                    <path d="M21.5,2.5 L21.5,19.5" id="Line-Copy-15" stroke="#E53A40" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

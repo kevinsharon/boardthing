@@ -1,0 +1,31 @@
+/****************************
+Breakpoints
+****************************/
+
+$breakpoints: (
+  "phablet" : "(min-width: 420px)",
+  "phab2" : "(min-width: 540px)",
+  "tablet"  : "(min-width: 800px)",
+  "desktop"  : "(min-width: 1024px)",
+  "large-desktop" : "(min-width:1200px)",
+  "x-large-desktop" : "(min-width:1500px)"
+) !default;
+
+// @mixin breakpoint($point) {
+//   $query: map-get($breakpoints, $point);
+
+//   @media #{$query} {
+//     @content;
+//   }
+// }
+//Want to try this one for error catching, may not work...
+@mixin breakpoint($name) {
+      @if map-has-key($breakpoints, $name) {
+        @media #{(map-get($breakpoints, $name))} {
+      @content;
+    }
+  }
+  @else {
+    @warn "Couldn't find a breakpoint named `#{$name}`.";
+  }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="56px" height="36px" viewBox="0 0 56 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>ico-draw</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-305.000000, -158.000000)">
+            <g id="ico-draw" transform="translate(294.000000, 142.000000)">
+                <rect id="Rectangle-480-Copy" x="0" y="0" width="78" height="78"></rect>
+                <rect id="Rectangle-494" fill="#FFFFFF" x="48" y="45" width="19" height="7"></rect>
+                <path d="M11.2198044,47.2172738 C11.2198044,47.2172738 21.9659154,48.194193 23.9197537,48.194193 C25.8735921,48.194193 33.6889455,49.1711122 36.619703,47.2172738 C39.5504605,45.2634355 40.5273797,38.4250013 35.6427838,38.4250013 C32.7120263,38.4250013 30.758188,39.4019204 30.758188,42.332678 C30.758188,44.2865163 32.7120263,48.194193 41.5042989,48.194193 C50.2965715,48.194193 62.0196016,47.2172738 62.0196016,47.2172738" id="Path-315" stroke="#979797" stroke-width="2"></path>
+                <g transform="translate(56.609640, 31.159649) rotate(-20.000000) translate(-56.609640, -31.159649) translate(43.232773, 17.768784)" id="Page-1" fill="#E43A40">
+                    <path d="M20.330007,0 L3.09491927,17.252751 L3.09231224,17.252751 L3.09156737,17.2557336 L3.09082251,17.256852 L3.09156737,17.256852 L0,26.7798665 L9.51380419,23.6861824 L9.51454905,23.6861824 L9.51715608,23.6846911 L9.51678365,23.6839454 L26.7537336,6.42933034 L20.330007,0 Z M4.38465518,18.0502191 L8.72163893,22.3917414 L2.29753995,24.4806679 L4.38465518,18.0502191 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

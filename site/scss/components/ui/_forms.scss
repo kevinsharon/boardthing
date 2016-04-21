@@ -1,0 +1,13 @@
+form{
+	width: 100%;
+}
+input{
+    border: 2px solid $brand-color;
+    border-radius: 0;
+    font-size: 1em;
+    margin-bottom: 0.833em;
+    margin-right: 0;
+    padding: .7em .5em;
+    width: 100%;
+    -webkit-appearance:none;
+}

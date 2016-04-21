@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>ico-facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Elments" transform="translate(-654.000000, -821.000000)" fill="#E53940">
+            <g id="Header-text" transform="translate(281.000000, 151.000000)">
+                <path d="M397,671.5 C397,670.679688 396.320312,670 395.5,670 L374.5,670 C373.679688,670 373,670.679688 373,671.5 L373,692.5 C373,693.320312 373.679688,694 374.5,694 L385.832031,694 L385.832031,684.671875 L382.832031,684.671875 L382.832031,681.214844 L385.832031,681.214844 L385.832031,678.226562 C385.832031,675.496094 387.496094,673.667969 390.789062,673.667969 C392.242188,673.667969 393.25,673.832031 393.25,673.832031 L393.25,676.949219 L391,676.949219 C390.003906,676.949219 389.5,677.511719 389.5,678.496094 L389.5,681.214844 L393.003906,681.214844 L392.5,684.671875 L389.5,684.671875 L389.5,694 L395.5,694 C396.320312,694 397,693.320312 397,692.5 L397,671.5 Z" id="ico-facebook"></path>
+            </g>
+        </g>
+    </g>
+</svg>

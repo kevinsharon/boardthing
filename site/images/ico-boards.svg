@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="197px" height="129px" viewBox="0 0 197 129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>ico-boards</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 60 60 60 60 0 0 0"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="60" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <polygon id="path-3" points="69 60 129 60 129 0 69 0"></polygon>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="60" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <polygon id="path-5" points="137 60 197 60 197 0 137 0"></polygon>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="60" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <polygon id="path-7" points="0 129 60 129 60 69 0 69"></polygon>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="60" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <polygon id="path-9" points="69 129 129 129 129 69 69 69"></polygon>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="60" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Web" transform="translate(-621.000000, -1455.000000)">
+            <g id="Info:-Boards" transform="translate(549.000000, 1398.000000)">
+                <g id="ico-boards" transform="translate(72.000000, 57.000000)">
+                    <use id="Fill-4" stroke="#666666" mask="url(#mask-2)" stroke-width="20" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <use id="Fill-5" stroke="#666666" mask="url(#mask-4)" stroke-width="20" fill="#FFFFFF" xlink:href="#path-3"></use>
+                    <use id="Fill-6" stroke="#666666" mask="url(#mask-6)" stroke-width="20" fill="#FFFFFF" xlink:href="#path-5"></use>
+                    <use id="Fill-7" stroke="#666666" mask="url(#mask-8)" stroke-width="20" fill="#FFFFFF" xlink:href="#path-7"></use>
+                    <use id="Fill-8" stroke="#666666" mask="url(#mask-10)" stroke-width="20" fill="#FFFFFF" xlink:href="#path-9"></use>
+                    <path d="M137,129 L197,129 L197,69 L137,69 L137,129 Z M147,119 L187,119 L187,79 L147,79 L147,119 Z" id="Fill-9" fill="#E53A40"></path>
+                    <path d="M178,93 L172,93 C170.457711,93.4294664 169.571144,92.5419369 170,91 L170,85 C169.571144,83.8875295 168.683582,83 168,83 L165,83 C164.316418,83 163.429851,83.8875295 163,85 L163,91 C163.428856,92.5429319 162.542289,93.4294664 161,93 L155,93 C153.887562,93.4294664 153,94.3169959 153,95 L153,98 C153,98.6839991 153.887562,99.5705336 155,100 L161,100 C162.542289,99.5705336 163.428856,100.458063 163,102 L163,108 C163.429851,109.112471 164.316418,109.999005 165,110 L168,110 C168.683582,110 169.571144,109.112471 170,108 L170,102 C169.571144,100.458063 170.457711,99.5705336 172,100 L178,100 C179.112438,99.5705336 180,98.6839991 180,98 L180,95 C180,94.3160009 179.112438,93.4294664 178,93" id="Fill-10" fill="#E53A40"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

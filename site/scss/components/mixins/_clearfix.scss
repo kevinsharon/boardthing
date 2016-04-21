@@ -1,0 +1,17 @@
+/*****************************
+Clearfix
+*****************************/
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+//EXAMPLE USE CASE
+  // .element {
+  //   width: 100px;
+  //   height: 100px;
+  //   background: black;
+  //   @include clearfix;
+  // }

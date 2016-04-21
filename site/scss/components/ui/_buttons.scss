@@ -1,0 +1,57 @@
+button{
+    border: 2px solid $white;
+    background-color: $brand-color;
+    color: $white;
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+	padding: .7em 1em;
+    -webkit-transition: border-color ease-in-out .2s;
+    -moz-transition: border-color ease-in-out .2s;
+    -o-transition: border-color ease-in-out .2s;
+    transition: border-color ease-in-out .2s;
+    &:hover{
+        background-color: $brand-color;
+        border-color: $brand-color;
+        color:$white;
+        -webkit-transition: all ease-in-out .2s;
+        -moz-transition: all ease-in-out .2s;
+        -o-transition: all ease-in-out .2s;
+        transition: all ease-in-out .2s;
+    }
+    &.primary {
+	    min-width: 250px;
+    }
+    &.secondary{
+	    background-color: transparent;
+        border-color: $white;
+        color: $white;
+        &:hover{
+		    background-color: $brand-color;
+            color: $white;
+        }
+    }
+    &.tertiary{
+	    background-color: transparent;
+        border-color: $brand-color;
+        color: $brand-color;
+        &:hover{
+		    background-color: $brand-color;
+            color: $white;
+        }
+    }
+}
+
+a {
+	color: $dark-grey;
+	&:hover{
+		text-decoration: none;
+        -webkit-transition: all ease-in-out .2s;
+        -moz-transition: all ease-in-out .2s;
+        -o-transition: all ease-in-out .2s;
+        transition: all ease-in-out .2s;
+	}
+	&:focus,:active{
+	}
+	
+}
