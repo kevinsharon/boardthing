@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/styles.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>    
+		<script type="text/javascript" src="//fast.fonts.net/jsapi/5b2f24f5-ae95-4f6f-8708-6777abe7e9b3.js"></script>	
 	</head>
     <body>
  
@@ -22,61 +23,25 @@
 	<a href="/" class="logo home">
 		<img src="images/logo.svg" alt="" />
 	</a>
-	<button class="secondary" href="">Sign in</button>
+	<button href="">Sign in</button>
 	</span>
-	<h1 class="reverse">Work together.<br>Anywhere.</h1>
-	<p class="reverse">Real time visual collaboration for distributed teams, distance learning teachers, remote consultants, and just about anyone.</p> 
+	<div id="mask">
+	<h1>Work together.<br>Anywhere.</h1>
+	<p>Real time visual collaboration for distributed teams, distance learning teachers, remote consultants, and just about anyone.</p> 
+	</div>
 	<span class="wrap">
 		<button class="primary">Try It Out</button>
 		<p class="meta">If you have an account already, <a href="#">sign in</a>.</p>
 	</span>
 </span>
+<video id="awesome_video" src="video/boardthing-prod.mp4" autoplay />
 </header>
 
 <section class="main center">
-<section class="pitch">
+<section class="pitch grid-10">
 	<h2>What the heck is Boardthing?</h2>
 	<p>For distributed teams, using Boardthing is just like being in the same room with a whiteboard, markers, and sticky notes or index cards. First, create a board. Then, invite colleagues to join. Everyone can add cards, move cards, draw on the board, and even vote on what they think is best. It’s that fast and it’s that simple.</p>
 </section>
-
-<hr />
-
-<section class="stats">
-<h3>Let&rsquo;s See Them Stats</h3> 
-
-<p>These stats convey Boardthing is a solid, well tested product, and not unstable or partially baked.</p>
-
-<span class="row">
-
-<figure>
-	<span class="wrap">
-		<img src="images/ico-beta.svg" alt="" />
-		<strong>5,000+</strong>
-		<figcaption class="caps">Beta Testers</figcaption>
-	</span>
-</figure>
-
-<figure>
-	<span class="wrap">
-		<img src="images/ico-boards.svg" alt="" />
-		<strong>10,132</strong>
-		<figcaption class="caps">Boards</figcaption>
-	</span>
-</figure>
-
-<figure>
-	<span class="wrap">
-		<img src="images/ico-company.svg" alt="" />
-		<strong>250</strong>
-		<figcaption class="caps">Companies</figcaption>
-	</span>
-</figure>
-
-</span>
-
-</section>
-
-<hr />
 
 <section class="features">
 <h3>Functionality</h3>
@@ -149,5 +114,19 @@
             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+        <script type="text/javascript">
+  var index = 1,
+      playlist = ['first_video.mp4', 'second_video.mp4', 'third_video.mp4'],
+      video = document.getElementById('awesome_video');
+
+  video.addEventListener('ended', rotate_video, false);
+
+  function rotate_video() {
+    video.setAttribute('src', playlist[index]);
+    video.load();
+    index++;
+    if (index >= playlist.length) { index = 0; }
+  }
+</script>
     </body>
 </html>

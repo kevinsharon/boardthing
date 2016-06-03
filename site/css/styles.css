@@ -693,10 +693,17 @@ body {
   background-color: #fff;
   height: 100%; }
 
+header p.meta { font-size: 14px;}
+
+header h1 {line-height: 1.3;}
+
+p {font-family:'Avenir Next W00', "helvetica neue"; font-weight: 200; line-height: 1.6; }
+
+#awesome_video { position: absolute; top: 33.333%; left: 50%; width: 100%; height: 100%; z-index: -1000; transform: translate(-50%, -50%); background: #fff;}
+
 header#home {
-  background: url(../images/graphics.svg) center center no-repeat, url(../images/pattern.png) 0 0 repeat;
-  background-color: #111111;
-  /* 	background-size: cover; */
+  background: none; 
+  position: relative;
   height: 85%;
   margin-bottom: 5em;
   min-height: 800px;
@@ -731,7 +738,7 @@ header#home {
 
 header .nav {
   display: inline-block;
-  padding: 2% 2% 8%;
+  padding: 2% 12% 8%;
   width: 100%;
   max-width: 1440px; }
   header .nav img {
@@ -757,7 +764,10 @@ main {
   margin: 0 auto; }
 
 .main {
-  max-width: 1440px; }
+  background: #efefef; 
+  padding-top: 100px; 
+  max-width: none;
+}
 
 section {
   padding: 0 .25em 3em; }
@@ -888,6 +898,7 @@ hr {
   padding-bottom: 3em; }
 
 .features .wrap {
+  background-color: #ffffff;
   border: 1px solid #D1D3D4;
   min-height: 380px;
   padding: .5em 1em; }
@@ -898,6 +909,14 @@ hr {
 .features img {
   padding-top: 1em;
   height: 78px; }
+
+.features p { 
+  font-size: .75em;
+  font-family:'Avenir Next W00', "helvetica neue"; 
+  font-weight: 200;
+}
+
+.features h4 { min-height: 2.875em;}
 
 .social {
   background: transparent url(../images/ico-twitter.svg) center center no-repeat;
