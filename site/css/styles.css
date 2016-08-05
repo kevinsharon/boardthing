@@ -757,9 +757,6 @@ header {
   height: 400px !important;
   background: transparent !important; }
 
-#mask {
-  /* height: 480px; */ }
-
 main {
   max-width: 900px;
   margin: 0 auto; }
