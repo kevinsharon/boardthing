@@ -17,27 +17,25 @@ body{
     height: 100%;
 }
 
+
 header#home {
-	background: 
-		url(../images/graphics.svg) center center no-repeat, 
-		url(../images/pattern.png) 0 0 repeat;
-	background-color: $black;
-/* 	background-size: cover; */
-	height: 85%;
-	margin-bottom: 5em;
-	min-height: 800px;
 	padding-left: .5em;
 	padding-right: .5em;
 	    @include breakpoint(phablet) {
 	    	padding-left: 0;
 	    	padding-right: 0;
 	    	}
+}
+
+#hero{
+	text-align: center;
 	& h1,p {
 		margin: 0 auto;
 		max-width: 700px;
 		}
 	& h1 {
 		margin-top: 2em;
+		margin-bottom: .5em;
 	    @include breakpoint(tablet) {
 			margin-top: 0;
 		}
@@ -48,12 +46,8 @@ header#home {
 		margin-right: auto;
 		}
 	& .wrap {
-		position: relative;
-		top: 2.5em;
+		margin-top: 2.5em;
 		display: block;
-	    @include breakpoint(phablet) {
-			top: 5em;
-			}
 	}
 	& .row {
 		align-items: center;
@@ -62,9 +56,12 @@ header#home {
 }
 
 header {
+	padding-bottom: 5em;
+	position: relative;
+	z-index: 100;
 		& .nav {
 		display: inline-block;
-		padding: 2% 2% 8%;
+		padding: 2% 2% 0;
 		width: 100%;
 		max-width: 1440px;
 		& img {
@@ -89,6 +86,21 @@ header {
 	}
 }
 
+
+
+#production_hype_container {
+ position: relative;
+ top: -170px;
+ z-index: 10;
+height: 400px !important;
+background: transparent !important;
+}
+
+#mask {
+/* height: 480px; */
+}
+
+
 main {
 	max-width: 900px;
 	margin: 0 auto;
@@ -110,6 +122,7 @@ section {
 
 .pitch {
 	max-width: 100%;
+	margin-top: 5em;
 	    @include breakpoint(desktop) {
 	       max-width: 66.66667%;
 	    }
